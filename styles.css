@@ -1,76 +1,238 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--dark-green);
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
-    --light: #9ECA83;
-    --primary: #548C31;
-    --secondary: #74C044;
-    --text: #324029;
-    --dark-green: #264016;
+  --light: #9eca83;
+  --primary: #548c31;
+  --secondary: #74c044;
+  --text: #324029;
+  --dark-green: #264016;
+  --ice: #e6eae1;
+}
+
+/* HEADER STYLE */
+body {
+  background-color: var(--dark-green);
 }
 
 .header-style {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    background-color: white;
+  background-color: white;
 
-    margin: 30px 400px;
-    border-radius: 15px;
-    padding: 10px 40px;
+  margin: 30px 400px;
+  border-radius: 15px;
+  padding: 10px 40px;
 
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .header-logo {
-    background-color: white;
+  background-color: white;
 }
 
 .header-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
 
-    width: 30%;
+  width: 30%;
 }
 
-.header-menu p {
-    color: var(--text);
-    font-size: 20px;
-    font-weight: 500;
-    background-color: white;
+.header-menu a {
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+  text-decoration: none;
 }
 
-.header-menu p:hover {
-    color: var(--light);
-    cursor: pointer;
-    transition: 0.4s;
+.header-menu a:hover {
+  color: var(--light);
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 .header-button {
-    background-color: white;
+  background-color: white;
 }
 
 .header-button button {
-    background-color: var(--light);
-    padding: 15px;
-    border-radius: 15px;
+  background-color: var(--light);
+  padding: 15px;
+  border-radius: 15px;
 
-    border: 0px;
-    color: var(--text);
-    text-transform: uppercase;
-    font-size: 15px;
+  border: 0px;
+  color: var(--text);
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .header-button button:hover {
-    background-color: var(--text);
+  background-color: var(--text);
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+/* MAIN STYLE */
+.main-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 150px;
+  width: 65%;
+}
+
+.main-principal-text {
+  h3 {
+    color: var(--light);
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin-top: 10px;
+
     color: white;
-    cursor: pointer;
-    transition: 0.4s;
+    text-transform: uppercase;
+    font-size: 3em;
+  }
+
+  p {
+    margin-top: 10px;
+    color: var(--primary);
+  }
+}
+
+.main-about {
+  background-color: var(--ice);
+  margin-top: -4px;
+}
+
+.main-about h2 {
+  padding-top: 30px;
+  text-align: center;
+
+  color: var(--text);
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main-about-options {
+  padding: 80px 20px 50px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+}
+
+.option-content {
+  border: 1px solid var(--primary);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-basis: 45%;
+  margin-bottom: 50px;
+}
+
+.option-content p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.option-content:hover {
+  border: 1px solid var(--light);
+  background-color: var(--dark-green);
+  cursor: pointer;
+  transition: 0.7s;
+
+  .icon {
+    color: var(--primary);
+  }
+
+  p {
+    color: white;
+  }
+}
+
+/* FOOTER STYLE */
+.footer-content {
+  background-color: var(--dark-green);
+  height: 400px;
+}
+
+.footer-content h2 {
+  padding-top: 30px;
+  text-align: center;
+
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-content p {
+  text-align: center;
+  color: var(--light);
+}
+
+.contact-content {
+  margin: auto;
+  width: 70%;
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-location iframe {
+  border-radius: 15px;
+}
+
+.contact-infos p {
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.social-medias i {
+  color: white;
+  margin-right: 10px;
+}
+
+.social-medias i:hover {
+  color: var(--primary);
+  transition: 0.7s;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp {
+  display: flex;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--secondary);
+  height: 63px;
+  width: 63px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.whatsapp i {
+  color: white;
 }
