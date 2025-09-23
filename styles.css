@@ -93,6 +93,8 @@ body {
 }
 
 .main-principal-text {
+  padding-left: 10px;
+
   h3 {
     color: var(--light);
     text-transform: uppercase;
