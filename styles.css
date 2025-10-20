@@ -298,6 +298,10 @@ body {
   font-size: 18px;
 }
 
+.social-medias a {
+  text-decoration: none;
+}
+
 .social-medias i {
   color: white;
   margin-right: 10px;
@@ -332,7 +336,21 @@ body {
 
 @media (max-width: 1440px) {
   .header-style {
-    margin: 30px 140px;
+    margin: 15px 200px;
+  }
+
+  .header-logo img {
+    width: 180px;
+    height: 39.13px;
+  }
+
+  .header-menu a {
+    font-size: 10px;
+  }
+
+  .header-button button {
+    padding: 10px;
+    font-size: 10px;
   }
 
   .main-principal {
