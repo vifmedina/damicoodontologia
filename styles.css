@@ -336,7 +336,7 @@ body {
 
 @media (max-width: 1440px) {
   .header-style {
-    margin: 15px 200px;
+    margin: 15px 220px;
     padding: 7px 20px;
   }
 
@@ -346,12 +346,13 @@ body {
   }
 
   .header-menu a {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .header-button button {
     padding: 10px;
-    font-size: 13px;
+    font-size: 12px;
+    border-radius: 10px;
   }
 
   .main-principal {
