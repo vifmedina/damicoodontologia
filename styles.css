@@ -381,16 +381,36 @@ body {
     }
   }
 
+  .main-contact-lenses {
+    h2 {
+      font-size: 1.8em;
+    }
+  }
+
   .main-contact-lenses-content {
     width: 75%;
+  }
+
+  .main-treatments h2 {
+    font-size: 1.8em;
   }
 
   .main-treatments-options {
     width: 75%;
   }
 
+  .main-about {
+    h2 {
+      font-size: 1.8em;
+    }
+  }
+
   .main-about-content {
     width: 75%;
+  }
+
+  .footer-content h2 {
+    font-size: 1.8em;
   }
 
   .contact-content {
