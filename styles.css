@@ -340,17 +340,17 @@ body {
   }
 
   .header-logo img {
-    width: 180px;
-    height: 39.13px;
+    width: 150px;
+    height: 32.607px;
   }
 
   .header-menu a {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .header-button button {
     padding: 10px;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .main-principal {
