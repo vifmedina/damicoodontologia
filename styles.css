@@ -416,4 +416,9 @@ body {
   .contact-content {
     width: 80%;
   }
+
+  .whatsapp {
+    height: 58px;
+    width: 58px;
+  }
 }
