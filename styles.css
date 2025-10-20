@@ -383,15 +383,25 @@ body {
 
   .main-contact-lenses {
     h2 {
+      padding-top: 35px;
       font-size: 1.8em;
     }
   }
 
   .main-contact-lenses-content {
     width: 75%;
+
+    h3 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 17px;
+    }
   }
 
   .main-treatments h2 {
+    padding-top: 35px;
     font-size: 1.8em;
   }
 
@@ -399,22 +409,50 @@ body {
     width: 75%;
   }
 
+  .option-content p {
+    font-size: 17px;
+  }
+
   .main-about {
     h2 {
+      padding-top: 35px;
       font-size: 1.8em;
     }
   }
 
   .main-about-content {
     width: 75%;
+
+    h3 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 17px;
+    }
+
+    img {
+      width: 350px;
+      height: 350px;
+    }
   }
 
   .footer-content h2 {
+    padding-top: 35px;
     font-size: 1.8em;
   }
 
   .contact-content {
-    width: 80%;
+    width: 70%;
+  }
+
+  .contact-location iframe {
+    width: 500px;
+    height: 250px;
+  }
+
+  .contact-infos p {
+    font-size: 15px;
   }
 
   .whatsapp {
