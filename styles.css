@@ -356,6 +356,21 @@ body {
 
   .main-principal {
     width: 80%;
+    margin-top: 50px;
+  }
+
+  .main-principal-text {
+    h3 {
+      font-size: 0.9em;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
   }
 
   .main-principal-image {
