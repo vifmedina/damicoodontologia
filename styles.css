@@ -337,6 +337,7 @@ body {
 @media (max-width: 1440px) {
   .header-style {
     margin: 15px 200px;
+    padding: 7px 20px;
   }
 
   .header-logo img {
