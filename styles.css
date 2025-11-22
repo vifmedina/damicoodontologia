@@ -581,10 +581,6 @@ body {
 }
 
 @media (max-width: 420px) {
-    * {
-        overflow-x: hidden;
-    }
-
     .header-style {
         flex-direction: column;
         align-items: center;
@@ -625,19 +621,20 @@ body {
 
     .main-principal {
         width: 100%;
+        overflow-x: hidden;
     }
 
     .main-principal-image {
-      flex-shrink: 0;
-      max-width: 45%;
+        flex-shrink: 0;
+        max-width: 45%;
         img {
             position: relative;
-            left: -80px;
+            left: -103px;
         }
     }
 
     .main-principal-text {
-        padding-left: 30px;
+        padding-left: 25px;
 
         h1 {
             margin-right: 20px;
@@ -649,23 +646,144 @@ body {
         }
     }
 
+    .main-contact-lenses {
+        padding-bottom: 30px;
+
+        h2 {
+            font-size: 1.6em;
+        }
+    }
+
     .main-contact-lenses-content {
         width: 95%;
         flex-direction: column;
+        justify-content: unset;
+
+        h3 {
+            margin-left: 25px;
+            text-align: left;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-left: 25px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+
+        ul {
+            margin-left: 45px;
+            text-align: left;
+            font-size: 1.1em;
+            list-style: disc;
+            list-style-position: inside;
+        }
+
+        button {
+            display: none;
+        }
+
+        img {
+            margin-left: 0px;
+            margin-top: 25px;
+        }
+    }
+
+    .main-treatments h2 {
+        padding-top: 30px;
+        font-size: 1.6em;
+    }
+
+    .main-treatments-options {
+        padding: 20px 0px 0px 0px;
+        width: 95%;
+    }
+
+    .option-content {
+        h2 {
+            padding-top: 20px;
+        }
+
+        h4 {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        ul {
+            font-size: 17px;
+            list-style: disc;
+            list-style-position: inside;
+        }
+
+        button {
+            font-size: 13px;
+        }
+    }
+
+    .main-about {
+        h2 {
+            font-size: 1.6em;
+        }
     }
 
     .main-about-content {
-        width: 95%;
+        width: 92%;
         flex-direction: column;
+
+        h3 {
+            font-size: 1.4em;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            margin-right: 0px;
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .footer-content h2 {
+        font-size: 1.6em;
     }
 
     .contact-content {
         width: 95%;
         flex-direction: column;
+        padding: 30px 0px 0px 0px;
     }
 
     .contact-location iframe {
-        width: 50px;
+        width: 100%;
         height: 250px;
+    }
+
+    .footer-content p {
+        font-size: 0.8em;
+    }
+
+    .contact-infos {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 95%;
+
+        p {
+            font-size: 0.9em;
+        }
+    }
+
+    .whatsapp {
+        right: 10px;
+        bottom: 10px;
+        height: 50px;
+        width: 50px;
     }
 }
