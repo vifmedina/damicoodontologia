@@ -13,11 +13,11 @@
     --ice: #e6eae1;
 }
 
-/* HEADER STYLE */
 body {
     background-color: var(--dark-green);
 }
 
+/* HEADER STYLE */
 .header-style {
     display: flex;
     justify-content: space-between;
@@ -34,6 +34,14 @@ body {
 
 .header-logo {
     background-color: white;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text);
 }
 
 .header-menu {
@@ -569,5 +577,95 @@ body {
 
     .contact-content {
         width: 85%;
+    }
+}
+
+@media (max-width: 420px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .header-style {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 20px;
+        padding: 10px 20px;
+    }
+
+    .header-top {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .header-menu,
+    .header-button {
+        display: none;
+        width: 100%;
+    }
+
+    .header-style.menu-open .header-menu,
+    .header-style.menu-open {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .header-style.menu-open .header-menu a,
+    .header-style.menu-open .header-button button {
+        padding: 5px 0;
+        margin-bottom: 5px;
+    }
+
+    .main-principal {
+        width: 100%;
+    }
+
+    .main-principal-image {
+      flex-shrink: 0;
+      max-width: 45%;
+        img {
+            position: relative;
+            left: -80px;
+        }
+    }
+
+    .main-principal-text {
+        padding-left: 30px;
+
+        h1 {
+            margin-right: 20px;
+            font-size: 2.5em;
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    .main-contact-lenses-content {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .main-about-content {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .contact-content {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .contact-location iframe {
+        width: 50px;
+        height: 250px;
     }
 }
