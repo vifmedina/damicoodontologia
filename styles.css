@@ -544,3 +544,30 @@ body {
         width: 58px;
     }
 }
+
+@media (max-width: 1440px) {
+    .header-style {
+        margin: 15px 110px;
+        padding: 7px 20px;
+    }
+
+    .main-principal {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .main-principal-image {
+        img {
+            width: 284.333333333px;
+            height: 426.666666667px;
+        }
+    }
+
+    .main-treatments-options {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .contact-content {
+        width: 85%;
+    }
+}
