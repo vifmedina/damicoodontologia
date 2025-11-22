@@ -272,29 +272,6 @@ body {
     }
 }
 
-/* .option-content:hover {
-    border: 1px solid var(--light);
-    background-color: var(--ice);
-    cursor: pointer;
-    transition: 0.7s;
-
-    .icon {
-        color: white;
-    }
-
-    h2 {
-        color: var(--primary);
-    }
-
-    h4 {
-        color: var(--primary);
-    }
-
-    p {
-        color: white;
-    }
-} */
-
 .main-about {
     background-color: var(--ice);
     padding-bottom: 50px;
@@ -416,6 +393,13 @@ body {
 /* -------------------------------------------- */
 /* ESTILIZAÇÃO PARA DIFERENTES TAMANHOS DE TELA */
 /* -------------------------------------------- */
+
+@media (max-width: 1680px) {
+    .contact-content {
+        width: 70%;
+    }
+}
+
 @media (max-width: 1440px) {
     .header-style {
         margin: 15px 220px;
@@ -480,6 +464,10 @@ body {
         p {
             font-size: 17px;
         }
+
+        ul {
+            font-size: 17px;
+        }
     }
 
     .main-treatments h2 {
@@ -488,11 +476,25 @@ body {
     }
 
     .main-treatments-options {
-        width: 75%;
+        width: 65%;
     }
 
-    .option-content p {
-        font-size: 17px;
+    .option-content {
+        h2 {
+            font-size: 1.4em;
+        }
+
+        h4 {
+            font-size: 1.2em;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        ul {
+            font-size: 17px;
+        }
     }
 
     .main-about {
