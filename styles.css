@@ -700,6 +700,8 @@ body {
     }
 
     .option-content {
+        margin-bottom: 25px;
+
         h2 {
             padding-top: 20px;
         }
