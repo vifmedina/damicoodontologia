@@ -469,8 +469,8 @@ body {
 
     .main-principal-image {
         img {
-            width: 326.574px;
-            height: 490px;
+            width: 320px;
+            height: 426.666667px;
         }
     }
 
@@ -590,8 +590,8 @@ body {
 
     .main-principal-image {
         img {
-            width: 284.333333333px;
-            height: 426.666666667px;
+            width: 320px;
+            height: 426.666667px;
         }
     }
 
@@ -656,17 +656,19 @@ body {
         flex-shrink: 0;
         max-width: 45%;
         img {
+            height: 312.195122px;
+            width: 234.146341px;
             position: relative;
-            left: -103px;
+            left: -60px;
         }
     }
 
     .main-principal-text {
-        padding-left: 25px;
+        padding-left: 15px;
 
         h1 {
             margin-right: 20px;
-            font-size: 2.5em;
+            font-size: 2.2em;
         }
 
         p {
