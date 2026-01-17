@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--dark-green);
+  background: linear-gradient(to right, var(--dark-green) 40%, var(--primary) 100%);
 }
 
 /* HEADER STYLE */
@@ -98,7 +98,7 @@ body {
 
   margin: auto;
   margin-top: 80px;
-  width: 65%;
+  width: 80%;
 }
 
 .main-principal-text {
@@ -121,6 +121,13 @@ body {
     margin-top: 10px;
     color: white;
     font-size: 1.3em;
+  }
+}
+
+.main-principal-image {
+  img {
+    opacity: 0.9;
+    border-radius: 45% 10px 0px 0px;
   }
 }
 
@@ -329,7 +336,6 @@ body {
 
 /* FOOTER STYLE */
 .footer-content {
-  background-color: var(--dark-green);
   height: 400px;
 }
 
@@ -427,6 +433,10 @@ body {
     padding: 7px 20px;
   }
 
+  .main-about-content {
+    width: 70%;
+  }
+
   .contact-content {
     width: 70%;
   }
@@ -454,7 +464,7 @@ body {
   }
 
   .main-principal {
-    width: 70%;
+    width: 80%;
     margin-top: 50px;
   }
 
@@ -474,8 +484,8 @@ body {
 
   .main-principal-image {
     img {
-      width: 320px;
-      height: 426.666667px;
+      width: 648px;
+      height: 432px;
     }
   }
 
@@ -549,12 +559,12 @@ body {
     }
 
     p {
-      font-size: 17px;
+      font-size: 18px;
     }
 
     img {
-      width: 350px;
-      height: 350px;
+      width: 500px;
+      height: 333.3333333px;
     }
   }
 
@@ -589,19 +599,26 @@ body {
   }
 
   .main-principal {
-    width: 80%;
+    width: 95%;
     margin-top: 50px;
   }
 
   .main-principal-image {
     img {
-      width: 320px;
-      height: 426.666667px;
+      width: 518.4px;
+      height: 345.6px;
     }
   }
 
   .main-treatments-options {
     padding: 40px 20px 20px 20px;
+  }
+
+  .main-about-content {
+    img {
+      width: 375px;
+      height: 250px;
+    }
   }
 
   .contact-content {
@@ -653,18 +670,16 @@ body {
   }
 
   .main-principal {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     overflow-x: hidden;
   }
 
   .main-principal-image {
-    flex-shrink: 0;
-    max-width: 45%;
     img {
-      height: 312.195122px;
-      width: 234.146341px;
-      position: relative;
-      left: -60px;
+      width: 345.6px;
+      height: 230.4px;
     }
   }
 
@@ -777,14 +792,14 @@ body {
 
     p {
       text-align: center;
-      font-size: 1.2em;
+      font-size: 1.1em;
       margin-right: 0px;
       margin-bottom: 30px;
     }
 
     img {
-      width: 300px;
-      height: 300px;
+      width: 333.3333333px;
+      height: 222.2222222px;
     }
   }
 
